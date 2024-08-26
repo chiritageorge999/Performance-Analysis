@@ -1,5 +1,6 @@
-# Performance-Analysis
-Portfolio project
+# Performance-Analysis of Plant Co. for 2023-2024
+
+The primary goal of this dashboard is to identify the challenges faced by Plant Co. and highlight opportunities for improvement.
 
 ## You can interact with the Dashboard!
 
