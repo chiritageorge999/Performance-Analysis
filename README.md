@@ -1,4 +1,4 @@
-# Performance-Analysis of Plant Co. for 2023 and 2024
+# Performance Analysis of Plant Co. for 2023 and 2024
 
 The primary goal of this dashboard is to identify the challenges faced by Plant Co. and highlight opportunities for improvement.
 
