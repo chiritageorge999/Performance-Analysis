@@ -4,6 +4,8 @@ Portfolio project
 ## You can interact with the Dashboard!
 
 <iframe title="Portofolio_Performance_Report" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZDUwNmZhYzMtZjA3OS00YjFjLWE4MDYtNWQ3OTJmNTQyYjEyIiwidCI6ImViOGZiNTVjLTcyMDEtNDE0Yy05MDdlLWVhYTAwMmZlOThhMCIsImMiOjN9" frameborder="0" allowFullScreen="true"></iframe>
+
+
 ## 📚 About Data
 
 The data set consists of three tables: plant_fact, accounts, and Plant_Hierarchy. Each table contains specific columns that provide detailed information about products, sales, accounts, and product hierarchy.
