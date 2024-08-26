@@ -23,8 +23,8 @@ Conducted simple data wrangling and data cleaning:
 📍 Clean Data: [plant_dataset.xls](assets/Plant_DTS.xls)
 
 ## Model View
+![pbi_model_view](assets/images/model_view.png)
 
-assets/images/model_view.png
 
 ## DAX Measures
 
