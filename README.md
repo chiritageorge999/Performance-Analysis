@@ -21,8 +21,22 @@ Conducted simple data wrangling and data cleaning:
 
 📍 Clean Data: [plant_dataset.xls](assets/Plant_DTS.xls)
 
+## DAX Measures
 
 
+```
+  S_PYTD = 
+VAR selected_value = SELECTEDVALUE(Slc_Values[Values])
+VAR result = SWITCH(selected_value,
+    "Sales", [PYTD_Sales],
+    "Quantity", [PYTD_Quantity],
+    "Gross Profit", [PYTD_GrossProfit],
+    BLANK()
+)
+RETURN
+result
+
+```
 
 
 
