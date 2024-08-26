@@ -17,3 +17,19 @@ Conducted simple data wrangling and data cleaning:
 - Renamed some of the columns and tables
 - Removed duplicates from the unique identifiers
 - Cast date_time as date 
+
+📍 Clean Data: [plant_dataset.csv](assets/Plant_DTS.xls)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
