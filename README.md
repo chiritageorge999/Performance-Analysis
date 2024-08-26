@@ -5,8 +5,15 @@ Portfolio project
 
 <iframe title="Portofolio_Performance_Report" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiZDUwNmZhYzMtZjA3OS00YjFjLWE4MDYtNWQ3OTJmNTQyYjEyIiwidCI6ImViOGZiNTVjLTcyMDEtNDE0Yy05MDdlLWVhYTAwMmZlOThhMCIsImMiOjN9" frameborder="0" allowFullScreen="true"></iframe>
 
-## Header 1
+## 📚 About Data
 
-### Header 2
+The data set consists of three tables: plant_fact, accounts, and Plant_Hierarchy. Each table contains specific columns that provide detailed information about products, sales, accounts, and product hierarchy.
 
-#### Header 4
+It is stored as a CSV file, the plant_fact table has 2723 rows, the accounts table has 1745 rows and the plant_hierarchy has 1001 rows.
+
+## ✏️ Data Wrangling
+
+Conducted simple data wrangling and data cleaning:
+- Renamed some of the columns and tables
+- Removed duplicates from the unique identifiers
+- Cast date_time as date 
