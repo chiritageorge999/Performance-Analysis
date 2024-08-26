@@ -45,6 +45,16 @@ RETURN
 result
 ```
 
+This DAX function is used to calculate the PriorYearToDate values of the Gross Profit. There are similar calculations for the Quantity and Sales dimensions.
+
+```
+PYTD_GrossProfit = 
+CALCULATE(
+    [Gross Profit],
+    SAMEPERIODLASTYEAR(Dim_Date[Date]),
+    Dim_Date[Inpast] = TRUE
+)
+```
 
 
 
