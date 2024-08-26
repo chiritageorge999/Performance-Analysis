@@ -23,9 +23,17 @@ Conducted simple data wrangling and data cleaning:
 
 ## DAX Measures
 
+This DAX function changes the title of the chart vizualization based on the selected value. There are similar functions for the report title, scatter plot, and waterfall vizuals.
 
 ```
-  S_PYTD = 
+_Column Chart title = SELECTEDVALUE(Slc_Values[Values]) & " YTD & PYTD | Month" 
+```
+
+
+This DAX function S_PYTD is designed to return a measure based on the selected value from a slicer.
+
+```
+S_PYTD = 
 VAR selected_value = SELECTEDVALUE(Slc_Values[Values])
 VAR result = SWITCH(selected_value,
     "Sales", [PYTD_Sales],
@@ -35,7 +43,6 @@ VAR result = SWITCH(selected_value,
 )
 RETURN
 result
-
 ```
 
 
