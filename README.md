@@ -22,6 +22,10 @@ Conducted simple data wrangling and data cleaning:
 
 📍 Clean Data: [plant_dataset.xls](assets/Plant_DTS.xls)
 
+## Model View
+
+assets/images/model_view.png
+
 ## DAX Measures
 
 This DAX function changes the title of the chart vizualization based on the selected value. There are similar functions for the report title, scatter plot, and waterfall vizuals.
