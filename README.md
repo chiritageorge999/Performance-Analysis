@@ -8,9 +8,9 @@ Portfolio project
 
 ## 📚 About Data
 
-The data set consists of three tables: plant_fact, accounts, and Plant_Hierarchy. Each table contains specific columns that provide detailed information about products, sales, accounts, and product hierarchy.
+The data set consists of three tables: plant_fact, accounts, and Plant_Hierarchy. Each table contains specific columns that provide detailed information about products, sales, and accounts.
 
-It is stored as a CSV file, the plant_fact table has 2723 rows, the accounts table has 1745 rows and the plant_hierarchy has 1001 rows.
+The dataset is composed of three tables: the plant_fact table has 2723 rows, the accounts table has 1745 rows and the plant_hierarchy has 1001 rows.
 
 ## ✏️ Data Wrangling
 
@@ -19,7 +19,7 @@ Conducted simple data wrangling and data cleaning:
 - Removed duplicates from the unique identifiers
 - Cast date_time as date 
 
-📍 Clean Data: [plant_dataset.csv](assets/Plant_DTS.xls)
+📍 Clean Data: [plant_dataset.xls](assets/Plant_DTS.xls)
 
 
 
